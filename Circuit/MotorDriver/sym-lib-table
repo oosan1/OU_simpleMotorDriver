@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "OU_power") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/OU_power.kicad_sym") (options "") (descr ""))
+	(lib (name "OU_power") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/OU_power.kicad_sym") (options "") (descr ""))
+)

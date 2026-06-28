@@ -416,13 +416,17 @@
         "uuid": "0d88f791-841b-4934-8770-7a8a0368e67c"
       }
     ],
-    "used_designators": "U2,J1-2,C11-16,#PWR11-26,SW1-2,R2-4",
+    "used_designators": "L1,#PWR29-35,C17-24,U3-4",
     "variants": []
   },
   "sheets": [
     [
       "0d88f791-841b-4934-8770-7a8a0368e67c",
       "ルート"
+    ],
+    [
+      "9da913e0-c410-4b67-8118-fc36f2da0424",
+      "STM32G4"
     ]
   ],
   "text_variables": {},
