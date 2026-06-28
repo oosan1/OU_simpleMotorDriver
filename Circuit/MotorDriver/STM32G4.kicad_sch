@@ -5244,6 +5244,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 82.55) (xy 118.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049ac0b9-a7dd-472b-9617-f17072c4b4a8")
+	)
+	(wire
+		(pts
 			(xy 203.2 53.34) (xy 201.93 53.34)
 		)
 		(stroke
@@ -5381,6 +5391,16 @@
 			(type default)
 		)
 		(uuid "1fc126ef-f601-4c53-81d8-43e44d167ce7")
+	)
+	(wire
+		(pts
+			(xy 116.84 92.71) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e5aefe-a05b-4749-aa77-e715c243f8f1")
 	)
 	(wire
 		(pts
@@ -5954,6 +5974,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 77.47) (xy 118.11 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74cce057-5107-46c8-ad8a-6c7b8b141707")
+	)
+	(wire
+		(pts
 			(xy 130.81 30.48) (xy 133.35 30.48)
 		)
 		(stroke
@@ -6184,6 +6214,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 87.63) (xy 118.11 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902da292-5986-426e-8d8c-74b1ba334cc4")
+	)
+	(wire
+		(pts
 			(xy 27.94 82.55) (xy 27.94 81.28)
 		)
 		(stroke
@@ -6391,6 +6431,16 @@
 			(type default)
 		)
 		(uuid "ba2a64af-906b-4a66-a74f-43081e1ccf74")
+	)
+	(wire
+		(pts
+			(xy 116.84 80.01) (xy 118.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36997ac-863e-4679-b458-1b58f8da63a0")
 	)
 	(wire
 		(pts
@@ -6641,6 +6691,16 @@
 			(type default)
 		)
 		(uuid "efb5e838-4a49-445e-aef3-ef2bd54eb318")
+	)
+	(wire
+		(pts
+			(xy 116.84 90.17) (xy 118.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd69e5f-c886-443f-bffb-bc756aa1b1b4")
 	)
 	(wire
 		(pts
@@ -6916,6 +6976,17 @@
 		)
 		(uuid "30a4a148-87dc-4b9d-9117-8590fac12ff4")
 	)
+	(hierarchical_label "PWM1"
+		(shape input)
+		(at 116.84 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3379778d-821d-41c2-ae71-4c133b427759")
+	)
 	(hierarchical_label "ADC2"
 		(shape input)
 		(at 154.94 54.61 0)
@@ -6970,6 +7041,61 @@
 			(justify left)
 		)
 		(uuid "a9170713-794e-4f61-8828-11949f2d5e08")
+	)
+	(hierarchical_label "PWM4"
+		(shape input)
+		(at 116.84 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa7af7c3-2d20-48d1-b90b-ab698cf7acf6")
+	)
+	(hierarchical_label "PWM5"
+		(shape input)
+		(at 116.84 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4d65845-afe9-4dda-a533-55db54847350")
+	)
+	(hierarchical_label "PWM6"
+		(shape input)
+		(at 116.84 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb63be94-a14a-492e-a042-126310a4d994")
+	)
+	(hierarchical_label "PWM3"
+		(shape input)
+		(at 116.84 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0acd1dc-086d-4878-b061-6a0ec53e1c70")
+	)
+	(hierarchical_label "PWM2"
+		(shape input)
+		(at 116.84 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd238b4e-94fe-4b97-a5c3-9bbcc04055aa")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
