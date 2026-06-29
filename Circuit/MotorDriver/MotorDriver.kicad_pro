@@ -384,6 +384,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN_URL",
+          "name": "MPN_URL",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -434,7 +446,7 @@
         "uuid": "0d88f791-841b-4934-8770-7a8a0368e67c"
       }
     ],
-    "used_designators": "SW3,#PWR53-57,R11-18,C27,D2-10",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

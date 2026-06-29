@@ -6616,7 +6616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 135.5852 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -6698,7 +6698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.6852 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -6778,7 +6778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4030S"
 			(at 128.27 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -7015,7 +7015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.892 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -7097,7 +7097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 45.4152 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7730,7 +7730,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 128.27 160.782 90)
 			(hide yes)
 			(show_name no)
@@ -7887,7 +7887,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 128.27 165.862 90)
 			(hide yes)
 			(show_name no)
@@ -7966,7 +7966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.58 140.6652 0)
 			(hide yes)
 			(show_name no)
@@ -8308,7 +8308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 188.9252 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -9372,7 +9372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -9529,7 +9529,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 74.93 128.5748 0)
 			(hide yes)
 			(show_name no)
@@ -9767,7 +9767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.0152 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -10163,7 +10163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 177.4952 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10327,7 +10327,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 71.12 225.298 90)
 			(hide yes)
 			(show_name no)
@@ -10409,7 +10409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 53.0352 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10490,7 +10490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 159.512 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -10572,7 +10572,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 27.94 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10665,7 +10665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 128.778 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -10908,7 +10908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OU_Capacitor:CP_Radial_D5.0mm_P2.0mm_H11mm_Horizontal1"
 			(at 56.8452 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10931,6 +10931,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 55.88 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN_URL" "https://akizukidenshi.com/catalog/g/g117901/"
 			(at 55.88 36.83 0)
 			(hide yes)
 			(show_name no)
