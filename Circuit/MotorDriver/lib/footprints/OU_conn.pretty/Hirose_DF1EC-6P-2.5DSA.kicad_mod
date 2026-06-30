@@ -1,0 +1,223 @@
+(footprint "Hirose_DF1EC-6P-2.5DSA"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Hirose DF13 through hole, DF13-06P-1.25DS, 6 Pins per row (https://www.hirose.com/product/en/products/DF13/DF13-4P-1.25DS%2820%29/)")
+	(tags "connector Hirose DF13 horizontal")
+	(property "Reference" "REF**"
+		(at 6.75 -5.5 0)
+		(layer "F.SilkS")
+		(uuid "3cfe191d-f5d6-4239-b905-ff5dede2a203")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Hirose_DF1EC-6P-2.5DSA"
+		(at 5.25 6 0)
+		(layer "F.Fab")
+		(uuid "be18aa3a-0a97-4d1a-b12b-0378730e56da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78a3cf03-2348-42fb-ac0a-2e6886849310")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d7a525a-ddb0-4251-a706-4149ff8de618")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "connector/Hirose"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ae5bd85c-03e4-4ef1-ac31-9ab20cfba053")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.75 5.5)
+		(end 0.75 5.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "668f9bcf-8421-4da0-bb9c-7dad00c8c3d9")
+	)
+	(fp_line
+		(start 0 4.75)
+		(end -0.75 5.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "37a09f1f-d566-479c-8998-d223ba5f771b")
+	)
+	(fp_line
+		(start 0 4.75)
+		(end 0.75 5.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1d1ca300-c96c-49cd-8e03-0c8a6465e16d")
+	)
+	(fp_rect
+		(start -2.5 -3.75)
+		(end 15 4.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "be0f7e5a-4c84-4f68-98a4-849f4e171ad0")
+	)
+	(fp_rect
+		(start -0.5 -4.25)
+		(end 0.5 -3.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "46b13796-fc12-4036-b39c-d772d584d808")
+	)
+	(fp_rect
+		(start 5.25 -4.5)
+		(end 7.25 -3.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4a24a860-e411-4966-9f64-2f8133f38e35")
+	)
+	(fp_rect
+		(start 12 -4.25)
+		(end 13 -3.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0fb62ac2-0bf2-45b2-b68d-dfb3bb81e590")
+	)
+	(fp_rect
+		(start -2.75 -4.5)
+		(end 15.25 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "50f0008c-4ad8-477c-b7ec-635260d4d664")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.75 -7.5 0)
+		(layer "F.Fab")
+		(uuid "298f9e70-31d0-488d-b8c5-a7eedb83d908")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.8 2.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "31bdb20f-ab51-46b2-8370-a1c15f86f1de")
+	)
+	(pad "2" thru_hole oval
+		(at 2.5 0)
+		(size 1.8 2.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6f479d3e-80b3-43fe-8b43-5944ed3126e3")
+	)
+	(pad "3" thru_hole oval
+		(at 5 0)
+		(size 1.8 2.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "345aaeea-91b5-4108-ac4a-11e394693a2f")
+	)
+	(pad "4" thru_hole oval
+		(at 7.5 0)
+		(size 1.8 2.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "51e6c872-ab03-45c6-8abe-dbef32eb152e")
+	)
+	(pad "5" thru_hole oval
+		(at 10 0)
+		(size 1.8 2.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e2dd61b-c0d0-4385-823e-501409dc0b2a")
+	)
+	(pad "6" thru_hole oval
+		(at 12.5 0)
+		(size 1.8 2.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e1ad8015-31aa-411f-8539-5e2abdb7ddfc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3Dmodels/DF1EC-6P-2.5DSA.stp"
+		(offset
+			(xyz -5.3 4.2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

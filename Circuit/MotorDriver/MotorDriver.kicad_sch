@@ -5034,6 +5034,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 64.77) (xy 146.05 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367632e6-9d72-4c9d-9504-f14ca7554e48")
+	)
+	(wire
+		(pts
 			(xy 124.46 213.36) (xy 134.62 213.36)
 		)
 		(stroke
@@ -5311,16 +5321,6 @@
 			(type default)
 		)
 		(uuid "6175cf17-7a7c-4a65-bb78-2d470627a57b")
-	)
-	(wire
-		(pts
-			(xy 144.78 64.77) (xy 146.05 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61cfdaf1-7b20-4157-8087-5b782a651383")
 	)
 	(wire
 		(pts
@@ -5654,7 +5654,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 139.7) (xy 67.31 139.7)
+			(xy 67.31 139.7) (xy 66.04 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5974,16 +5974,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 62.23) (xy 144.78 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab7dd488-9114-4aac-9298-1e02abd07e0d")
-	)
-	(wire
-		(pts
 			(xy 125.73 129.54) (xy 123.19 129.54)
 		)
 		(stroke
@@ -5991,6 +5981,16 @@
 			(type default)
 		)
 		(uuid "abe32e88-5382-42a0-89ae-008114b36104")
+	)
+	(wire
+		(pts
+			(xy 144.78 62.23) (xy 146.05 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acac57e9-c464-4e45-8576-20d67d200743")
 	)
 	(wire
 		(pts
@@ -6014,7 +6014,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 139.7) (xy 67.31 144.78)
+			(xy 66.04 139.7) (xy 66.04 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6024,7 +6024,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 144.78) (xy 77.47 144.78)
+			(xy 66.04 144.78) (xy 77.47 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6181,6 +6181,16 @@
 			(type default)
 		)
 		(uuid "c9c45a40-54b9-4ab1-b7a7-ced4b5019fb0")
+	)
+	(wire
+		(pts
+			(xy 118.11 67.31) (xy 146.05 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7f239a-ac8f-41e4-bf0a-f29a2da59ea1")
 	)
 	(wire
 		(pts
@@ -6494,7 +6504,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 139.7) (xy 77.47 139.7)
+			(xy 74.93 139.7) (xy 77.47 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6541,16 +6551,6 @@
 			(type default)
 		)
 		(uuid "fbaa9021-513d-4343-8ca1-918c9d28c63c")
-	)
-	(wire
-		(pts
-			(xy 118.11 67.31) (xy 146.05 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcb12565-d56f-4bd9-8790-f47c344b9a1b")
 	)
 	(wire
 		(pts
@@ -7937,7 +7937,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 72.39 139.7 270)
+		(at 71.12 139.7 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7947,7 +7947,7 @@
 		(dnp no)
 		(uuid "3eefb484-549a-4a48-9525-f4f9436de12a")
 		(property "Reference" "C17"
-			(at 64.77 138.684 90)
+			(at 63.5 138.684 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7957,7 +7957,7 @@
 			)
 		)
 		(property "Value" "47n"
-			(at 64.77 141.224 90)
+			(at 63.5 141.224 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7967,7 +7967,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 68.58 140.6652 0)
+			(at 67.31 140.6652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7978,7 +7978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 139.7 0)
+			(at 71.12 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7989,7 +7989,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 72.39 139.7 0)
+			(at 71.12 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8048,7 +8048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OU_conn:Hirose_DF1EC-6P-2.5DSA"
 			(at 173.99 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8110,8 +8110,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 151.13 64.77 0)
-		(mirror y)
+		(at 151.13 67.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8121,7 +8120,7 @@
 		(dnp no)
 		(uuid "43eddfbf-6b46-452a-8b5e-9787a671f7ee")
 		(property "Reference" "J4"
-			(at 152.4 67.3101 0)
+			(at 152.4 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8132,7 +8131,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 152.4 64.7701 0)
+			(at 152.4 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8142,8 +8141,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 151.13 64.77 0)
+		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
+			(at 151.13 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8154,7 +8153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 64.77 0)
+			(at 151.13 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8165,7 +8164,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 151.13 64.77 0)
+			(at 151.13 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8387,7 +8386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGF0040E-IPC_A"
+		(property "Footprint" "OU_Power:DRV8316RRGFR"
 			(at 77.47 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9926,7 +9925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 165.1 77.47 0)
 			(hide yes)
 			(show_name no)
